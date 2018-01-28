@@ -1,6 +1,6 @@
 <template>
   <div>
-    <input type="text" name="name" @keyup="updateValue">
+    <input type="text" name="name" :value="value" @keyup="updateValue">
   </div>
 </template>
 
